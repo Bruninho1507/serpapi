@@ -1,5 +1,5 @@
 import axios from "axios";
-import Noodle from './assets/jamorant.png';
+import Noodle from './assets/image.png';
 import { useState } from "react";
 
 const Search = () => {
@@ -37,7 +37,7 @@ const Search = () => {
 
   return (
     <div className="App">
-      <div className="logo">
+      <div className="title">
         <h1>Noodle</h1>
         <img src={Noodle} alt="Miojo" /> 
       </div>
